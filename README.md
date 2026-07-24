@@ -187,3 +187,25 @@ Zenodo record.
 Access and reuse are governed by the rights and access conditions displayed
 on the Zenodo record. Restricted files should not be redistributed without
 the required permission.
+
+## Acknowledgements
+
+This work builds upon [MMDetection](https://github.com/open-mmlab/mmdetection),
+an open-source object detection and instance segmentation toolbox developed
+by the OpenMMLab project. We thank the MMDetection contributors for providing
+the framework and implementations used in this work.
+
+If you use the associated code, please also cite MMDetection:
+
+```bibtex
+@article{chen2019mmdetection,
+  title   = {MMDetection: Open MMLab Detection Toolbox and Benchmark},
+  author  = {Kai Chen and Jiaqi Wang and Jiangmiao Pang and Yuhang Cao and
+             Yu Xiong and Xiaoxiao Li and Shuyang Sun and Wansen Feng and
+             Ziwei Liu and Jiarui Xu and Zheng Zhang and Dazhi Cheng and
+             Chenchen Zhu and Tianheng Cheng and Qijie Zhao and Buyu Li and
+             Xin Lu and Rui Zhu and Yue Wu and Jifeng Dai and Jingdong Wang
+             and Jianping Shi and Wanli Ouyang and Chen Change Loy and Dahua Lin},
+  journal = {arXiv preprint arXiv:1906.07155},
+  year    = {2019}
+}
